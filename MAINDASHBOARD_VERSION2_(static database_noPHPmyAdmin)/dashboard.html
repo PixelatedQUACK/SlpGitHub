@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DASHBOARD</title>
+</head>
+
+<body>
+    <!--Readonly text sa taas-->
+    <input type="text" id="name" placeholder="Name" readonly>
+    <br>
+    <input type="text" id="course" placeholder="Course" readonly>
+    <br>
+    <input type="text" id="id" placeholder="Id Number" readonly>
+    <!--End of readonly text-->
+    <h3>AM attenders: <span id="recordAM">0</span></h3>
+    <h3>PM attenders: <span id="recordPM">0</span></h3>
+    <br>
+    <!--Id number inputs-->
+    <h4>Id number</h4>
+    <label for="">Id Number</label>
+    <input type="text" id="idnumber">
+    <br>
+    <!--Button register,edit,delete-->
+    <button id="register">Register</button>
+    <button id="delete">Delete</button>
+    <br>
+    <br>
+    <!--Combo box for Am And PM-->
+    <select id="AmPm">
+        <option value="AM">AM</option>
+        <option value="PM">PM</option>
+    </select>
+    <!--Combo box for time in time out-->
+    <select id="timeInOut">
+        <option value="TimeIn">Time-In</option>
+        <option value="TimeOut">Time-Out</option>
+    </select>
+    <br>
+    <br>
+    <h3>AM</h3>
+    <!--Table in replacement for datagridview AM-->
+    <table border="1" id="attendanceTableAM">
+        <thead>
+            <tr>
+                <th>ID Number</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Time-In</th>
+                <th>Time-Out</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be added here by JavaScript or PHP later -->
+        </tbody>
+    </table>
+    <h3>PM</h3>
+    <!--Table in replacement for datagridview PM-->
+    <table border="1" id="attendanceTablePM">
+        <thead>
+            <tr>
+                <th>ID Number</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Time-In</th>
+                <th>Time-Out</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be added here by JavaScript or PHP later -->
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <BUTton id="export">EXPORT TO EXCELL</BUTton>
+    <script src="dashboard.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+1. WALA PA SYANG DATA BASE
+2. DI PA NAKA-CONNECT SA PHPMYADMIN
+3. NAKA HARD CODE YUNG USERS NIYA TEMPORARILY
+4. PROTOTYPE PALANG MAY MGA PROBLEMS
+
+mag test kayo dito kung paano ma implement yung database, if may need na palitan pasabi nalang saakin,
+
+thanks
